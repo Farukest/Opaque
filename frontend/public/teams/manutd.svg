@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="mu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DA291C"/>
+      <stop offset="100%" style="stop-color:#A01A12"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield shape -->
+  <path d="M60 8 L108 30 L108 72 Q108 100 60 114 Q12 100 12 72 L12 30 Z" fill="url(#mu)" stroke="#7A0E08" stroke-width="2"/>
+  <!-- Inner border -->
+  <path d="M60 16 L100 34 L100 70 Q100 94 60 106 Q20 94 20 70 L20 34 Z" fill="none" stroke="#FBE122" stroke-width="1.5"/>
+  <!-- Devil trident -->
+  <path d="M44 42 L44 32 M60 42 L60 28 M76 42 L76 32" stroke="#FBE122" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="44" cy="30" r="3" fill="#FBE122"/>
+  <circle cx="60" cy="26" r="3" fill="#FBE122"/>
+  <circle cx="76" cy="30" r="3" fill="#FBE122"/>
+  <!-- MU text -->
+  <text x="60" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="28" fill="#FBE122">MU</text>
+  <!-- FC text -->
+  <text x="60" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="14" fill="#FBE122">FC</text>
+</svg>

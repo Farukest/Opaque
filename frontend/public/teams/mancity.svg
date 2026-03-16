@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="mc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6CABDD"/>
+      <stop offset="100%" style="stop-color:#1C2C5B"/>
+    </linearGradient>
+  </defs>
+  <!-- Circle badge -->
+  <circle cx="60" cy="60" r="54" fill="url(#mc)" stroke="#1C2C5B" stroke-width="2"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#6CABDD" stroke-width="1.5"/>
+  <!-- Eagle wings simplified -->
+  <path d="M36 44 Q28 38 24 44 Q28 50 36 48 Z" fill="#FBE122"/>
+  <path d="M84 44 Q92 38 96 44 Q92 50 84 48 Z" fill="#FBE122"/>
+  <!-- Star -->
+  <polygon points="60,24 63,33 72,33 65,39 67,48 60,43 53,48 55,39 48,33 57,33" fill="#FBE122"/>
+  <!-- MC text -->
+  <text x="60" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="26" fill="white">MC</text>
+  <!-- FC text -->
+  <text x="60" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="13" fill="#6CABDD">FC</text>
+</svg>

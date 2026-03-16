@@ -1,0 +1,11 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployer": "0xF505e2E71df58D7244189072008f25f6b6aaE5ae",
+  "contracts": {
+    "ConfidentialUSDT": "0xc35eA8889D2C09B2bCF3641236D325C4dF7318f1",
+    "OracleResolver": "0x165C3B6635EB21A22cEc631046810941BC8731b9",
+    "MarketFactory": "0x29B59C016616e644297a2b38Cf4Ef60E0F03a29B"
+  },
+  "deployedAt": "2026-02-22"
+}

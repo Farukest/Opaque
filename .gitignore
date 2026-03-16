@@ -1,0 +1,43 @@
+# fhevm
+fhevmTemp
+
+# directories
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+artifacts
+build
+cache
+coverage
+dist
+node_modules
+types
+deployments
+tmp
+typechain-types
+
+# files
+*.env
+*.env.local
+*.env.production
+*.log
+.DS_Store
+.pnp.*
+coverage.json
+pnpm-lock.yaml
+yarn.lock
+.next
+
+# Personal / internal notes (not for public repo)
+Farukest.md
+FARUKABIOKU.md
+
+# Claude / AI tooling
+.claude/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows reserved names
+nul

@@ -1,0 +1,48 @@
+{
+  "name": "opaque-sdk",
+  "version": "0.4.0",
+  "description": "TypeScript SDK for OPAQUE V3 — FHE-encrypted prediction market protocol",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "license": "BSD-3-Clause-Clear",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Himess/opaque"
+  },
+  "keywords": [
+    "fhe",
+    "fhevm",
+    "zama",
+    "prediction-market",
+    "encrypted",
+    "orderbook",
+    "opaque"
+  ],
+  "peerDependencies": {
+    "ethers": "^6.0.0",
+    "@zama-fhe/relayer-sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0",
+    "ethers": "^6.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "dev": "tsup --watch"
+  }
+}
