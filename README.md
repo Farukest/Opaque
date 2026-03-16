@@ -1,10 +1,10 @@
-[![CI](https://github.com/Himess/opaque/actions/workflows/ci.yml/badge.svg)](https://github.com/Himess/opaque/actions/workflows/ci.yml)
-![Tests](https://img.shields.io/badge/tests-559_passing-brightgreen)
+[![CI](https://github.com/Farukest/Opaque/actions/workflows/ci.yml/badge.svg)](https://github.com/Farukest/Opaque/actions/workflows/ci.yml)
+![Tests](https://img.shields.io/badge/tests-500%2B_passing-brightgreen)
 ![FHE](https://img.shields.io/badge/FHE-14_operations-blue)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.27-363636)
 ![License](https://img.shields.io/badge/license-BSD--3--Clause--Clear-green)
 
-**[Live Demo](https://opaque-market.vercel.app)** · **[Audit Report](docs/COMPREHENSIVE-AUDIT-V3.md)** · **[Design Doc](OPAQUE_DESIGN.md)**
+**[Live Demo](https://frontend-red-mu.vercel.app)** · **[Audit Report](docs/COMPREHENSIVE-AUDIT-V3.md)** · **[Design Doc](OPAQUE_DESIGN.md)**
 
 # OPAQUE V3 -- Trustless FHE Prediction Markets
 
