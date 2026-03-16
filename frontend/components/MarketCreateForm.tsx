@@ -100,7 +100,7 @@ export default function MarketCreateForm() {
       setQuestion("");
       setSource("");
       setCriteria("");
-      setDeadlineDays("30");
+      setDeadlineDuration("30d");
       setSourceType("onchain_oracle");
       setCategory("crypto");
     } catch (err: unknown) {
