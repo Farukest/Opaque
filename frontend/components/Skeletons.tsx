@@ -5,8 +5,8 @@
 
 /* ─── Reusable primitives ─── */
 
-function Bar({ className = "" }: { className?: string }) {
-  return <div className={`rounded bg-gray-200 dark:bg-gray-700/60 ${className}`} />;
+function Bar({ className = "", style }: { className?: string; style?: React.CSSProperties }) {
+  return <div className={`rounded bg-gray-200 dark:bg-gray-700/60 ${className}`} style={style} />;
 }
 
 /* ─── Home page skeletons ─── */
